@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bloodapp">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Blood_bank_offline_capibility"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".bloodSearchingActivity"></activity>
+        <activity android:name=".contact_us_activity" />
+        <activity android:name=".SmsToBloodSeeker" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login_activity" />
+        <activity android:name=".ChatActivity" />
+        <activity
+            android:name=".FindBloodActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ContactSmsActivity" />
+        <activity android:name=".SendingRequestActivity" />
+        <activity android:name=".Request_recieve_Activity" />
+        <activity android:name=".RequestForBloodActivity" />
+        <activity android:name=".BloodCompitibility" />
+        <activity android:name=".SendingSmsActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MyProfileActivity" />
+        <activity android:name=".SignupPhoneActivity" />
+        <activity android:name=".SearchBloodActivity" />
+    </application>
+
+</manifest>

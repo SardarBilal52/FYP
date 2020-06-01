@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/displayshadow"
+    tools:context=".SmsToBloodSeeker">
+
+    <EditText
+        android:id="@+id/sms_To_Blood_Seeker"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:textAllCaps="false"
+        android:textAlignment="gravity"
+        android:background="@drawable/my_profile_edit_text_background"
+        android:layout_marginTop="100dp"
+        android:inputType="textMultiLine"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="13dp"
+        android:text="AOA  Just Recieve your blood Request. kindly share your location (Hospital) and blood group.  (BLOOD APP COMMUNITY)"
+        />
+
+    <Button
+        android:id="@+id/sendbutton"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginRight="40dp"
+        android:background="@drawable/my_profile_edit_text_background"
+        android:layout_below="@+id/sms_To_Blood_Seeker"
+        android:textAllCaps="false"
+        android:text="Send Message" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/sendbutton"
+        android:layout_marginTop="143dp"
+        android:background="#C03C2B"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#C03C2B"
+            android:orientation="horizontal">
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

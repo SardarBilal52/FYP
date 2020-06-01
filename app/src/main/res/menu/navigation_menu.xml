@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/menu_profile"
+        android:title="My Profile"
+
+
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/menu_inbox"
+        android:title="Inbox"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menu_view_blood_request"
+        android:title="View Blood Request"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menu_my_blood_request"
+        android:title="Send and recieved Request"
+
+
+        >
+    </item>
+
+    <item
+        android:id="@+id/menu_blood_info"
+        android:title="Blood compitibility"
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/menu_search_blood"
+        android:title="availiable blood"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menu_contact_us"
+        android:title="Contact Us"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Sign Out"
+        >
+    </item>
+
+    </group>
+
+</menu>

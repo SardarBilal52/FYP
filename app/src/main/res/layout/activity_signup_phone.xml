@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/displayshadow"
+    tools:context=".SignupPhoneActivity">
+
+
+    <LinearLayout
+        android:id="@+id/topFooter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       android:background="#C03C2B"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="New Registration"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:text="Note : Enter your data and correct mobile number in the the following box app will send 6 digits authantication code on your number. "
+        android:layout_below="@+id/topFooter"/>
+        <ScrollView
+            android:id="@+id/scrolLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/displayshadow"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/signup_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/verify_activity_image"
+                            android:ems="10"
+                            android:background="@drawable/button_background"
+                            android:textColor="#F70404"
+                            android:textColorHint="#F70404"
+                            android:inputType="textPersonName|textCapCharacters"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginTop="5dp"
+                            android:padding="2dp"
+                            android:textStyle="italic"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:hint="Enter your name"
+                            />
+
+                        <Spinner
+                            android:id="@+id/signup_blood"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/signup_name"
+                            android:ems="10"
+                            android:background="@drawable/button_background"
+                            android:textColor="#F70404"
+                            android:textColorHint="#F70404"
+                            android:popupBackground="@drawable/displayshadow"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginStart="17dp"
+                            android:padding="6dp"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="italic"
+                            android:textAlignment="center"
+
+                            />
+
+                        <Spinner
+                            android:id="@+id/signup_gender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/signup_blood"
+                            android:ems="10"
+                            android:background="@drawable/button_background"
+                            android:textColor="#F70404"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginStart="17dp"
+                            android:padding="6dp"
+                            android:popupBackground="@drawable/displayshadow"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="italic"
+                            android:textAlignment="center"
+                            />
+                        <EditText
+                            android:id="@+id/signup_age"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/signup_gender"
+                            android:ems="10"
+                            android:background="@drawable/button_background"
+                            android:textColor="#F70404"
+                            android:textColorHint="#F70404"
+                            android:inputType="textPersonName|textCapCharacters"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginStart="17dp"
+                            android:padding="2dp"
+                            android:layout_marginTop="5dp"
+                            android:textStyle="italic"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:hint="Age"
+                            />
+
+                        <EditText
+                            android:id="@+id/signup_country_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginStart="17dp"
+                            android:ems="10"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@+id/signup_age"
+                            android:inputType="textPersonName|textCapCharacters"
+                            android:background="@drawable/button_background"
+                            android:textColor="#F70404"
+                            android:textColorHint="#F70404"
+                            android:padding="2dp"
+                            android:hint="Enter your city name"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            />
+
+                        <EditText
+                            android:id="@+id/phone_number_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginStart="17dp"
+                            android:layout_below="@+id/signup_country_name"
+                            android:layout_marginTop="5dp"
+                            android:hint="e.g :  +923025221735"
+                            android:inputType="phone"
+                            android:padding="2dp"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:background="@drawable/button_background"
+                            android:textColor="#F70404"
+                            android:textColorHint="#F70404"
+                            android:textStyle="italic" />
+
+                        <Button
+                            android:id="@+id/send_ver_code_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/phone_number_input"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Create Account"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="#F70404"
+                            android:textSize="16sp"
+                            android:background="@drawable/button_background"
+                            android:textStyle="italic"
+
+                            />
+                        <TextView
+                            android:id="@+id/alredy_have_account"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginEnd="25dp"
+                            android:textColor="#fff"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:text="Already have Account ?"
+                            android:layout_below="@+id/send_ver_code_button"/>
+                        <TextView
+                            android:id="@+id/simple_text_show"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/alredy_have_account"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textStyle="italic"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginStart="17dp"
+                            android:textColor="#e15353"/>
+
+                        <EditText
+                            android:id="@+id/verification_code_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/simple_text_show"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginTop="10dp"
+                            android:hint="Enter Verification code"
+                            android:inputType="number"
+                            android:padding="2dp"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:background="@drawable/button_background"
+                            android:textColor="#F70404"
+                            android:textColorHint="#F70404"
+                            android:textStyle="italic"
+                            android:visibility="invisible"/>
+
+                        <Button
+                            android:id="@+id/verify_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_below="@+id/verification_code_input"
+                            android:layout_marginEnd="17dp"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Verify Code"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:background="@drawable/button_background"
+                            android:textColor="#F70404"
+                            android:textSize="16sp"
+                            android:textStyle="italic"
+                            android:visibility="invisible"
+
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/scrolLayout"
+        android:layout_marginTop="14dp"
+        android:background="#C03C2B"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="12dp"
+                android:background="#C03C2B"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:background="#C03C2B"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

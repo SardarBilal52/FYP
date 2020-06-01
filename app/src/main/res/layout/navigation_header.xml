@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="#DB3822">
+
+
+    <ImageView
+        android:id="@+id/user_profile_image"
+        android:layout_width="83dp"
+        android:layout_height="55dp"
+        android:src="@drawable/profileicon"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/user_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/user_profile_image"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="2dp"
+        android:text="User Name"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/user_blood_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_profile_name"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="17dp"
+        android:text="Blood G: null"
+        android:textColor="#ffff"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+</RelativeLayout>

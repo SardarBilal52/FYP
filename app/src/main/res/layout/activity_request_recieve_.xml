@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Request_recieve_Activity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recieve_blood_requst"
+        android:layout_width="401dp"
+        android:layout_height="662dp"
+        android:layout_centerVertical="true"
+
+        android:layout_marginTop="4dp" />
+
+</RelativeLayout>

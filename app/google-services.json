@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "648458328684",
+    "firebase_url": "https://bloodapp-c0c23.firebaseio.com",
+    "project_id": "bloodapp-c0c23",
+    "storage_bucket": "bloodapp-c0c23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648458328684:android:219b0c820de7aa2666d649",
+        "android_client_info": {
+          "package_name": "com.example.bloodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648458328684-h2d9geoo85bcq57sc0g23ei5c9ik6c12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bloodapp",
+            "certificate_hash": "3b0c0ddcc0387f68c003d185a415faa6ba61df52"
+          }
+        },
+        {
+          "client_id": "648458328684-p1psufhmn2qck3s2lviigqpvgcf5ba0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJMhMy0yY4nx8rJVbVJCfe-RDplrVm0Ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648458328684-p1psufhmn2qck3s2lviigqpvgcf5ba0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
